@@ -39,17 +39,29 @@ Additional Tools	Lombok, Postman/HTTP Client
 📂 Project Structure
 
 employee-management-system
+
  └── src/main/java/com/shubha/employeemanagementsystem
+ 
       ├── controller          # REST API controllers
+      
       ├── service             # Service interfaces
+      
       ├── service/impl        # Service implementations
+      
       ├── repository          # JPA repositories
+      
       ├── entity              # JPA entities
+      
       ├── exception           # Custom exceptions (optional)
+      
       └── EmployeeManagementSystemApplication.java
+      
  └── src/main/resources
+ 
       ├── application.properties
+      
       └── static / templates (optional)
+      
 
 ⚙️ Setup & Installation
 1️⃣ Clone the Repository
