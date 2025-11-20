@@ -137,15 +137,19 @@ Body:
 }
 
 Get All Employees
+
 GET /api/employees
 
 Get Employee by ID
+
 GET /api/employees/{id}
 
 Update Employee
+
 PUT /api/employees/{id}
 
 Delete Employee
+
 DELETE /api/employees/{id}
 
 🧪 Testing
@@ -153,7 +157,9 @@ DELETE /api/employees/{id}
 Use:
 
 -Postman
+
 -IntelliJ IDEA HTTP Client
+
 -CURL
 
 Example:
