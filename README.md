@@ -27,14 +27,23 @@ Controller → Service → Repository → Database
 ✔ API testing support (Postman / IntelliJ HTTP Client)
 
 🛠 Tech Stack
+
 Category	Technology
+
 Language	Java 17
+
 Framework	Spring Boot 3.x
+
 Database	MySQL
+
 JPA Provider	Hibernate
+
 Build Tool	Maven
+
 IDE	IntelliJ IDEA
+
 Additional Tools	Lombok, Postman/HTTP Client
+
 
 📂 Project Structure
 
@@ -64,39 +73,58 @@ employee-management-system
       
 
 ⚙️ Setup & Installation
+
 1️⃣ Clone the Repository
+
 git clone https://github.com/YOUR_USERNAME/employee-management-system.git
 cd employee-management-system
 
+
 2️⃣ Configure MySQL
 
+
 Create a database:
+
 
 CREATE DATABASE employee_db;
 
 
+
 Update application.properties:
 
+
 spring.datasource.url=jdbc:mysql://localhost:3306/employee_db
+
 spring.datasource.username=your_mysql_username
+
 spring.datasource.password=your_mysql_password
 
+
 spring.jpa.hibernate.ddl-auto=update
+
 spring.jpa.show-sql=true
+
 spring.jpa.properties.hibernate.dialect=org.hibernate.dialect.MySQL8Dialect
+
 
 3️⃣ Build & Run
 
 Using Maven:
 
+
 mvn spring-boot:run
+
 
 
 Or via IntelliJ → Run Application.
 
+
 📡 API Endpoints
+
 Create Employee
+
 POST /api/employees
+
 
 
 Body:
